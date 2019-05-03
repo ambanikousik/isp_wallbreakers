@@ -73,7 +73,7 @@ packages:
       name: flutter_webview_plugin
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.3.3"
+    version: "0.3.4"
   matcher:
     dependency: transitive
     description:
@@ -197,7 +197,7 @@ packages:
       name: video_player
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.10.0+5"
+    version: "0.10.0+8"
 sdks:
   dart: ">=2.2.0 <3.0.0"
   flutter: ">=0.5.6 <2.0.0"

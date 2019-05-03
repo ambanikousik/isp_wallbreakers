@@ -4,7 +4,7 @@ import 'contact.dart';
 import 'media.dart';
 import 'web.dart';
 import 'videoplayer.dart';
-//import 'livetv.dart';
+import 'livetv.dart';
 
 
 void main() { runApp(MaterialApp(
@@ -14,12 +14,12 @@ void main() { runApp(MaterialApp(
     canvasColor: Colors.white,
   ),
   //home: IspApp(),
-    initialRoute: '/',
+    initialRoute: '/liveTv',
   routes: {
     '/': (_) => IspApp(),
     '/contact': (_) => Contacts(),
     '/media': (_) => media(),
-   // '/liveTv': (_) => LiveTv(),
+    '/liveTv': (_) => LiveTv(),
     '/bill': (_) => CarouselDemo(),
     '/video': (_) => ServerVideo(),
   }
